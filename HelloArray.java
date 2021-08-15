@@ -8,7 +8,7 @@ public class HelloArray {
         int a;
         a = 12345;
 
-        System.out.println("------------int 本数の内容------------");
+        System.out.println("------------int 変数の内容------------");
         System.out.println(a);
 
         // 10個のエリアを割り付ける処理( int の配列を作成 )
