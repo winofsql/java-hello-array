@@ -11,10 +11,10 @@ public class HelloArray {
         System.out.println("------------int 変数の内容------------");
         System.out.println(a);
 
+        System.out.println("------------int 配列の数------------");
         // 10個のエリアを割り付ける処理( int の配列を作成 )
         int[] b = new int[10]; 
-
-        System.out.println("------------int 配列の数------------");
+        
         System.out.println(b.length);
 
         System.out.println("------------等差数列データ------------");
