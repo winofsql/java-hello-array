@@ -17,32 +17,32 @@ public class HelloArray {
         System.out.println("------------int 配列の数------------");
         System.out.println(b.length);
 
+        System.out.println("------------等差数列データ------------");
+
         // 等差数列でデータセット
         for( int i = 0; i < b.length; i++ ){
             b[i] = 10 + (i) * 2;
         }
-
-        System.out.println("------------等差数列データ------------");
-
+        
         // for ループ で表示
         for( int i = 0; i < b.length; i++ ){
             System.out.println( b[i] );
         }
 
+        System.out.println("-----------初期化子( int )-------------");
+
         // 初期化子
         int[] c = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
-
-        System.out.println("-----------初期化子( int )-------------");
 
         // for ループ で表示
         for( int i = 0; i < c.length; i++ ){
             System.out.println( c[i] );
         }
 
+        System.out.println("-----------文字列を初期化子でセット-------------");
+
         // 文字列を初期化子でセット
         String[] d = {"睦月","如月","弥生","卯月","皐月","水無月","文月","葉月","長月","神無月","霜月","師走"};
-
-        System.out.println("-----------文字列を初期化子でセット-------------");
 
         // for ループ で表示
         for( int i = 0; i < d.length; i++ ){
