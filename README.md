@@ -40,9 +40,8 @@ for( String x : d ) {
     System.out.println( x );
 }
 ```
-## 配列を List に変換
+## 配列を List に変換( この list にデータは追加できない )
 ```java
-// この list にデータは追加できない
 List<String> list =  Arrays.asList(d);
 ```
 
