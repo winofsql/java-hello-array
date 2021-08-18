@@ -28,8 +28,9 @@ Visual Studio Code ターミナル( コマンドプロンプト )
 int[] b = new int[10]; 
 
 System.out.println(b.length);
-```java
+```
 ## 初期化子
+```java
 int[] c = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
 ```
 
