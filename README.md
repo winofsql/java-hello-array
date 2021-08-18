@@ -34,6 +34,14 @@ System.out.println(b.length);
 int[] c = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
 String[] d = {"睦月","如月","弥生","卯月","皐月","水無月","文月","葉月","長月","神無月","霜月","師走"};
 ```
+## 拡張 for
+```java
+for( String x : d ) {
+    System.out.println( x );
+}
+```
+
+
 
 ```txt
 配列のループ処理
