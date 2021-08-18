@@ -44,9 +44,18 @@ for( String x : d ) {
 ```java
 List<String> list = Arrays.asList(d);
 ```
+## 追加処理できるように、再作成
+```java
+ArrayList<String> list2 = new ArrayList<String>(list);
 
+list2.add("あたらしい月");
 
-
+// 拡張 for で表示
+for( String x : list2 ) {
+    System.out.println( x );
+}
+```
+## 出力結果
 ```txt
 配列のループ処理
 ------------int 変数の内容------------ 
