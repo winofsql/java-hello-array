@@ -42,7 +42,7 @@ for( String x : d ) {
 ```
 ## 配列を List に変換( この list にデータは追加できない )
 ```java
-List<String> list =  Arrays.asList(d);
+List<String> list = Arrays.asList(d);
 ```
 
 
