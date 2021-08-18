@@ -23,7 +23,7 @@ Visual Studio Code ターミナル( コマンドプロンプト )
     },
     "terminal.integrated.defaultProfile.windows": "Command Prompt"
 ```
-# 10個のエリアを割り付ける処理( int の配列を作成 )
+## 10個のエリアを割り付ける処理( int の配列を作成 )
 ```
 int[] b = new int[10]; 
 
