@@ -1,5 +1,5 @@
 # java-hello-array
-# ⭐ 配列とArrayList
+## ⭐ 配列とArrayList
 ## 10個のエリアを割り付ける処理( int の配列を作成 )
 ```java
 int[] b = new int[10]; 
