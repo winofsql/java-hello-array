@@ -3,6 +3,7 @@ import java.util.*;
 public class HelloArray {
     public static void main (String[] args) {
 
+        Scanner scanner = new Scanner(System.in);
         System.out.println("配列のループ処理");
 
         int a;
@@ -76,6 +77,8 @@ public class HelloArray {
         for( String x : list2 ) {
             System.out.println( x );
         }
+        
+        sc.next();
 
     }
 }
