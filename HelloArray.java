@@ -78,7 +78,7 @@ public class HelloArray {
             System.out.println( x );
         }
         
-        sc.next();
+        scanner.next();
 
     }
 }
